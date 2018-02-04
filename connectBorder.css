@@ -1,0 +1,22 @@
+h1 {
+    color: blueviolet;
+}
+
+p {
+    font-size: 300%;
+    color: black;
+}
+
+head {
+    background-color: black;
+}
+
+body {
+    background-color: white;
+}
+
+border {
+    color: yellow;
+    background-color: whitesmoke;
+}
+
