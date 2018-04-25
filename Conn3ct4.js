@@ -369,5 +369,5 @@ function winner(color){
 function tie(){
     turn = 3;
     cboard.disableButtons();
-    documemnt.getElementById("Col").value = "TIE!!";
+    document.getElementById("Col").value = "This is a tie!";
 }
