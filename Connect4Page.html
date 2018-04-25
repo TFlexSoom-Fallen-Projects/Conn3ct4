@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 
-<head>
-<title> CONN3CT 4 for the memes </title>
+<title>CONN3CT 4</title>
 
-<h1> CONN3CT 4 the game </h1>
-<p1> YAY CONNECT 4 </p1>
 
-</head>
 
 <body>
+    <link type="text/css" rel="stylesheet" href="connectBorder.css">
 
-<p1> I will put directions here I believe </p1>
-<border>
-<canvas id="Conn3ct4" width="800" height="600"></canvas>
-</border>
+    <h1> CONN3CT 4 the game </h1>
+    <br>
+    <br>
+
+    <canvas id= "cnct4"></canvas>
+
+    <script 
+    type="text/javascript" 
+    src="Conn3ct4.js" 
+    onload="startGame()"></script>
+
+    <br>
+    <input type="button" id="bB"  onclick="black_go()" value="Black">
+    <input type="button" id="bR" onclick="red_go()" value="Red" disabled>
+    <br>
+    <form>
+        Column?  <input id="Col" type="text" name="selection" value="1">
+    </form>
+
+    <p1> Enter the column 1-7 above then click the button to add a coin of that color
+        <br>
+        Black Goes First !!
+    </p1>
+    <br>
+
 </body>
+
 
 

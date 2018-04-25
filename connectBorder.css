@@ -20,3 +20,12 @@ border {
     background-color: whitesmoke;
 }
 
+canvas {
+    border: 5px solid rgb(25, 5, 50);
+    background-color: whitesmoke;
+    min-width: 30%;
+    min-height: 30%;
+    max-height: 115%;
+    max-width: 115%;
+}
+
